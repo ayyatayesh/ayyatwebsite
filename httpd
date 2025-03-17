@@ -1,0 +1,1 @@
+Import-AzContainerRegistryImage -RegistryName AzureStaticWebCR -ResourceGroupName EnvironmentProtection -SourceRegistryUri docker.io -SourceImage Libarary/httpd:latest
